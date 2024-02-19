@@ -1,0 +1,486 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+}
+.container {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+
+/*  Header top starts here!<<<<<<<<======= */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    height: 30px;
+    width: 1140px;
+    margin-bottom: 15px;
+} 
+.left-side a{
+    color: rgb(255, 255, 255);
+    margin: 0px 35px 0px 18px;
+    font-size: 12px;
+    font-weight: 500;
+}
+.left-side a:hover{
+    color: #fd7e14;
+    transition: 1s;
+}
+.right-side ul li {
+    display: inline-block;
+    padding-right: 20px;
+}
+.right-side ul li a{
+   font-size: 12px;
+   color: white;
+}
+.right-side ul li a:hover{
+    color: #fd7e14;
+    transition: 1s;
+}
+/*! Header top ends here!<<<<<<<<======== */
+
+/* Header main starts here!<<<<<<<<===== */
+.header-main{
+    display: flex;
+    top: 0; 
+    left: 0;
+    justify-content: space-between;
+    align-items: center; 
+    transition: 0.6s;
+}
+.nav-menu ul li{
+    display: inline-block;
+    padding-left: 35px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.nav-menu ul li a{
+    color: #fff;
+}
+/* ! Header main ends here!<<<<<<<======= */
+
+/* Home page section starts here<<<<<<<====== */
+.home-page .background-img{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+.home-page-content{
+    display: flex;
+    justify-content: space-between;
+}
+.content-left-side{
+    margin-top: 250px;
+}
+.content-left-side h2{
+    color: white;
+    font-size: 37px;
+    text-transform: uppercase;
+    line-height: 47px;
+    font-weight: bold;
+}
+.content-left-side p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+.content-left-side a{
+    display: inline-block;
+    background: #faba00;
+    color: #fff;
+    width: 149px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #faba00;
+    line-height: 48px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition:0s;
+}
+.content-left-side a:hover{
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #faba00;
+    color:#faba00;
+    transition: 0.6s;
+}
+.content-right-side{
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 10px;   
+    width: 350px;
+}
+.content-right-side .home-item{
+    flex: 0 0 50%;
+    text-align: center;
+    line-height: 150px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+.content-right-side .home-item:hover{
+    background-color: #faba00;
+    transition: 0.7s;
+}
+.content-right-side .home-item i{
+    color: #fff;
+    font-size: 30px;
+}
+/*! Home page section ends here<<<<<<<====== */
+
+/* Furnitures page starts here<<<<<<<<<<========== */
+.furniture-page{
+   background-color: #f9f9ff;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.furniture-page h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+    color: rgb(21, 21, 21);
+}
+.furniture-page .title{
+    text-align: center;
+    color: #777777;
+    line-height: 24px;
+    font-size: 15px;
+}
+.furniture-page h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #222222;
+    margin-top: 25px;
+    margin-bottom: 12px;
+}
+.furniture-page .items:hover h3{
+    color: #faba00;
+    transition: 0.5s;
+}
+.furniture-page p{
+    color: #777777;
+    line-height: 24px;
+    font-size: 14px;
+}
+.furniture-page img{
+    border-radius: 4px;
+}
+.furnitures{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.furniture-page .items{
+    margin-right: 15px;
+}
+/* ! Furnitures page ends here<<<<<<<<<<========== */
+
+/* ? Projects page starts here<<<<<<<<<<<<========== */
+.project-page{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-page img{
+    width: 276.95px;
+}
+.project-page .project-img{
+    width: 688px;
+}
+.project-page .hover-content{
+    display: none;
+}
+/* ? Projects page ends here<<<<<<<<<<<<<=========== */
+
+/* Feature page starts here<<<<<<<<<<<<============= */
+.feature-page{
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.feature-page h2{
+    font-size: 35px;
+    color: #222222;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.feature-page .title{
+    text-align: center;
+    color: #777777;
+    line-height: 24px;
+    font-size: 15px;
+    margin-bottom: 85px;
+}
+.feature-page .feature-items{
+    display: flex;
+    flex-wrap: wrap;
+}
+.feature-page .feature-item{
+    background: #f9f9ff;
+    border-radius: 10px;
+    padding: 40px 25px 40px 55px;
+    margin-bottom: 35px;
+    margin-right: 35px;
+    box-sizing: border-box;
+}
+.feature-page .feature-item:hover h4{
+    color: #faba00;
+    transition: 0.5s;
+}
+.feature-page .feature-item:hover i{
+    color: #faba00;
+    transition: 0.5s;
+}
+.feature-page .feature-item:hover{
+    box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: 0.5s;
+}
+.feature-page i{
+    font-size: 24px;
+    color: #222222;
+}
+.feature-page h4{
+    font-size: 18px;
+    color: #222222;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    padding-left: 15px;
+    font-weight: 600;
+    display: inline;
+}
+.feature-page .feature-item p{
+    color: #777777;
+    line-height: 24px;
+    font-size: 15px;
+    padding-top: 15px;
+} 
+/* ! Feature page ends here<<<<<<<<<<<<============= */
+
+/* More page starts here<<<<<<<<<<<<<============ */
+.more {
+    position: relative;
+    text-align: center;
+    margin-bottom: 120px;
+}
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.text h2{
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.text p{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 20px;
+    line-height: 23px;
+}
+.text a{
+    display: inline-block;
+    background: #faba00;
+    color: #fff;
+    padding: 0px 35px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #faba00;
+    line-height: 48px;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 35px;
+}
+.text a:hover{
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid #faba00;
+    color:#faba00;
+    transition: 0.6s;
+}
+/* ! More page ends here<<<<<<<<<<<<<============ */
+
+/* Our Blog page starts here<<<<<<<<<============ */
+.our-blog h2{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 21px;
+    color: rgb(21, 21, 21);
+}
+.blog-title p{
+    color: #777777;
+    line-height: 24px;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.blog-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-blog .travel-btn{
+    background: #faba00;
+    border-color: #faba00;
+    color: #fff;
+    display: inline-block;
+    line-height: 28px;
+    padding: 0px 20px;
+    font-size: 12px;
+}
+.our-blog .style-btn{
+    display: inline-block;
+    line-height: 28px;
+    padding: 0px 20px;
+    font-size: 12px;
+    border: 1px solid #eeeeee;
+    color: #222222;
+}
+.blog-btns{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.style-btn:hover{
+    background-color: #faba00;
+    color: #fff;
+    transition: 0.5s;
+}
+.our-blog .hover-title{
+    font-size: 18px;
+    color: #222222; 
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.our-blog .hover-title:hover{
+    color: #faba00;
+    transition: 0.5s;
+}
+.blog-p{
+    color: #777777;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.our-blog .date{ 
+    color: #222222;
+    font-size: 14px;
+}  
+.blog-img{
+    margin-right: 15px;
+}
+.our-blog{
+    margin-bottom: 100px;
+}
+/* ! Our Blog page ends here<<<<<<<<<============  */
+
+/* Clients Company page starts here<<<<<========= */
+.clients-company{
+    background: #f9f9ff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+.company-logo{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    margin-left: 90px;
+    opacity: 0.7;
+}
+.logo:hover{
+    opacity: 1;
+    transition: 0.7s;
+}
+/* ! Clients Company page ends here<<<<<========= */
+
+/* Footer page starts here<<<<<<========= */
+footer{
+    background-color: #222222;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.footer p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #777777;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.footer-left{
+    margin-right: 60px;
+}
+.footer-left a{
+    color: #faba00;
+}
+.footer-left .fa-regular{
+    color: #777777;
+    font-size: 14px;
+}
+.footer-main .footer-input{
+    height: 40px;
+    background: #fff;
+    border: none;
+    width: 354px;
+    font-size: 14px;
+    color: #cccccc;
+    outline: none;
+    padding-left: 10px;
+}
+.footer-main i{
+    background: #faba00;
+    padding: 11px 15px 13px 15px;
+    cursor: pointer;
+    color: #fff;
+}
+.footer-right a{
+    color: #cccccc;
+    margin-right: 17px;
+    font-size: 12px; 
+}
+.social-media{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-right a:hover{
+    color: #fd7e14;
+    transition: 1s;
+}
+.footer-main{
+    margin-right: 47px;
+}
+
+/* ! Footer page ends here<<<<<<========= */
